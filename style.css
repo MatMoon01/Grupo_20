@@ -114,15 +114,67 @@ button {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: bold;
-    background-color: #fa783c; /* Color de fondo normal */
-    color: rgb(255, 255, 255); /* Color del texto normal */
-    padding: 10px 20px; /* Ajusta el padding según sea necesario */
+    background-color: #fa783c; 
+    color: rgb(255, 255, 255); 
+    padding: 10px 20px; 
     border: none;
-    border-radius: 7px; /* Bordes redondeados */
+    border-radius: 7px;
     cursor: pointer;
-    transition: background-color 0.3s; /* Efecto de transición al pasar el mouse */
+    transition: background-color 0.3s; 
   }
   
   button:hover {
-    background-color: #bb592c; /* Nuevo color de fondo al pasar el mouse */
+    background-color: #bb592c; 
+  }
+
+  /* footer */
+
+footer {
+	background-image: url('./assets/Gallinas_libres\ \(1\).png');
+	  background-size: contain;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	background-position:tops    ;
+  }
+  
+  footer {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: #f8f9fa;
+  }
+  
+  
+  
+  
+  .contact-footer > ul > li {
+	display: flex;
+	align-content:space-between;
+	cursor: pointer;
+  }
+  
+  .contact-footer > ul > li > i  {
+	display: flex;
+	font-size: 20px;
+	margin: 5px;
+	align-items: baseline;
+  }
+  
+  .redes {
+	font-size: 35px;
+	margin: 5px;
+  }
+  
+  .links > ul > li {
+	display: flex;
+	margin: 5px;
+  
+  }
+  
+  footer > div > img{
+	height: 250px;
+	align-items: end;
+	margin: 0px;
   }
