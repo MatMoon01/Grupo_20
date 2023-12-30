@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: x-large
+	}
+
+.textos h2{
+	color: #fff;}
+
+.destacada{
+		color: rgb(255, 153, 0)}
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Righteous&display=swap');
+h1 {
+	font-family:  'Gochi Hand', cursive;
+	font-size: 70px;
+  	}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fefdf1;
+}
+
+header {
+	position: relative;
+	background-image: url();
+}
+
+header img.bg {
+	width: 100vw;
+	display: block;
+}
+
+header h1 {
+	color: #fff;
+	position: absolute;
+	bottom: 10%;
+	width: 80%;
+	left: 50%;
+	transform: translate(-50%);
+	display: block;
+	/* border: 5px solid red; */
+	
+}
+
+nav {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	margin-left: 50%;
+	transform: translate(-50%);
+	/* border: 5px solid red; */
+
+
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 10px;
+}
+
+.text-hf > h2 {
+	font-family:  'Gochi Hand', cursive;
+	font-style: bold;
+	font-size: 40px;
+	margin-left: 50%;
+}
+
+.text-hf > h2 > p {
+		font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+.navegador {
+	font-family: 'Roboto', sans-serif;
+    display: flex;
+    list-style: none;
+}
+
+.navegador > li {
+    margin: 40px
+}
+
+.navegador > li > a {
+    color: white;
+	font-style: none;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.contact-head > a {
+	text-decoration: none;
+	color: white;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #fa783c; /* Color de fondo normal */
+    color: rgb(255, 255, 255); /* Color del texto normal */
+    padding: 10px 20px; /* Ajusta el padding según sea necesario */
+    border: none;
+    border-radius: 7px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto de transición al pasar el mouse */
+  }
+  
+  button:hover {
+    background-color: #bb592c; /* Nuevo color de fondo al pasar el mouse */
+  }
